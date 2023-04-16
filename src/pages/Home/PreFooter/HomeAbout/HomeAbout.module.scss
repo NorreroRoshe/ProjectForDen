@@ -1,0 +1,25 @@
+.section_homeAbout {
+  padding: 50px 17px;
+  .homeAbout_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .homeAbout_cat {
+      width: 20%;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 13px;
+      margin-bottom: 20px;
+      .homeAbout_cat__title {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      .homeAbout_cat__text {
+        line-height: 1.5;
+        font-weight: 500;
+      }
+    }
+  }
+}

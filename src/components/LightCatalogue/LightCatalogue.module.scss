@@ -1,0 +1,97 @@
+.section_categories {
+  max-width: 1560px;
+  padding: 50px 30px;
+  margin: 0 auto;
+  .title_h2 {
+    border-bottom: 1px solid #3f3f3f;
+    // font-family: 'CenturyGothicBold';+
+
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+  .popular_categories_list {
+    margin: 0 -15px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    li {
+      width: 33.333%;
+      padding: 0 15px 30px;
+      .container_popular_categories_list {
+        position: relative;
+        &:before {
+          padding-top: 63.6%;
+          content: '';
+          display: block;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+          border-radius: 12px;
+        }
+        .popular_categories_text {
+          position: absolute;
+          left: 20px;
+          right: 20px;
+          bottom: 20px;
+          z-index: 1;
+          .popular_categories_title {
+            // font-family: 'CenturyGothicBold';
+            font-size: 24px;
+            line-height: 34px;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 14px;
+          }
+          .btn_popular_categories {
+            font-size: 14px;
+            line-height: 40px;
+            color: #fff;
+            padding-right: 73px;
+            display: table;
+            position: relative;
+            &:after {
+              background: url('../../assets/img/ButtImg/right_arrow.svg') center no-repeat;
+              width: 62px;
+              height: 40px;
+              content: '';
+              position: absolute;
+              top: 0;
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn_main_description {
+    text-transform: none;
+    margin: 0 auto;
+    border: 3px solid #3f3f3f;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    width: 270px;
+    height: 64px;
+    // font-family: 'CenturyGothicBold';
+    font-size: 18px;
+    line-height: 25px;
+    color: #3f3f3f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 12px;
+    transition: all .3s ease-out;
+    &:hover {
+      background-color: black;
+      color: #fff;
+    }
+  }
+}

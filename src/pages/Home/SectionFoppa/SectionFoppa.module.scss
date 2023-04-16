@@ -1,0 +1,144 @@
+.section_foppa {
+  position: relative;
+  margin-bottom: 50px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .foppa_back {
+    display: flex;
+    background: url('../../../assets/img/img/Foppa1.jpg') left repeat;
+    background-size: cover;
+    width: 76%;
+    height: 660px;
+    color: #fdfdfd;
+    margin: 0 auto;
+    align-items: end;
+    border-radius: 10px;
+    .foppa_firstbox1 {
+      position: absolute;
+      top: -17px;
+      right: 208px;
+      background: url('../../../assets/img/img/unnamed.png') left no-repeat;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+    .foppa_container {
+      padding: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 26%;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 0 0 10px 10px;
+      .foppa_desc_text {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-top: 4px;
+        width: 88%;
+        max-width: 1260px;
+        color: inherit;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+      }
+    }
+  }
+  .product_heading {
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial',
+      sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #424246;
+  }
+  .foppa_collection__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 20px;
+    .foppa_collection__item {
+      position: relative;
+      .foppa_product__link {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 auto;
+        height: 100%;
+        .foppa_product__box {
+          padding: 5px;
+          margin: auto;
+          .foppa_product__image {
+            transition: transform 0.3s ease-in-out;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
+        .foppa_product__vendor {
+          font: 400 19px/20px openSans;
+          color: #424246;
+          margin: 0 0 5px;
+          padding: 0;
+          text-align: center;
+          .foppa_product__vendor_in {
+            font-weight: 700;
+          }
+        }
+        .foppa_product__title {
+          font: 400 18px/20px openSans;
+          color: #787a81;
+          margin: 0;
+          padding: 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .foppa_icon_btn {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #58595b;
+    padding-bottom: 7px;
+    padding-top: 3px;
+    border-radius: 38px;
+    padding: 7px 15px 6px;
+    position: relative;
+    width: 210px;
+    transition: all 0.3s ease-in-out;
+    // &:hover {
+    //   color: rgb(94.099426%,30.599976%,13.699341%);
+    // }
+    // &:before {
+    //   content: '';
+    //   position: absolute;
+    //   display: block;
+    //   top: 5px;
+    //   left: 18px;
+    //   background: url('../../../assets/img/img/logoFoppa.svg') center no-repeat;
+    //   background-size: cover;
+    //   width: 180px;
+    //   height: 38px;
+    //   transition: all 0.2s ease-in-out;
+    // }
+    // &:hover:before {
+    //   background: url('../../../assets/img/img/logoFoppaRed.svg') center no-repeat;
+    //   background-size: cover;
+    //   width: 180px;
+    //   height: 38px;
+    // }
+    .foppa_icon_desc {
+      font-size: 16px;
+      text-transform: uppercase;
+      color: inherit;
+      text-align: center;
+      font-weight: 500;
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.section_outletBanner {
+  margin-bottom: 5px;
+  height: 195px;
+  width: 100%;
+  .outletBunner_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../../assets/img/img/outletBanner2.png') top repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    .outlet_btn {
+      font-size: 30px;
+      max-width: 250px;
+      max-height: 81px;
+      font-weight: 600;
+      padding: 7px 30px;
+      background-color: #fff;
+      border-radius: 75px;
+      text-align: center; 
+    }
+  }
+}

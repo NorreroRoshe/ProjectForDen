@@ -1,0 +1,25 @@
+.container {
+  max-width: 1660px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.brand__container {
+  padding-bottom: 50px;
+  .brand__mt {
+    padding-top: 62px;
+    .brand__title {
+      text-align: center;
+      font-weight: 600;
+    }
+    .brand_desc {
+      max-width: 1121px;
+      margin: 0 auto;
+      margin-top: 50px;
+      border: 1px solid black;
+      border-radius: 18px;
+      padding: 15px 42px;
+      color: #424245;
+      margin-bottom: 20px;
+    }
+  }
+}

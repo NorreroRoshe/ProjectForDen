@@ -1,0 +1,80 @@
+@import '../variables';
+
+.sort {
+  position: relative;
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    b {
+      margin-right: 8px;
+      font-weight: 400;
+      color: #787a80;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    .sort__label_button {
+      border: none;
+      background-color: var(--white);
+      box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+      border-radius: 10px;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      height: 45px;
+      cursor: pointer;
+      span {
+        cursor: pointer;
+        margin-right: 6px;
+        font-weight: 400;
+        color: #787a80;
+        font-size: 18px;
+        line-height: 20px;
+        color: #424551;
+      }
+
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  &__popup {
+    position: absolute;
+    top: 37px;
+    right: 0;
+    margin-top: 15px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 7px 4px;
+    max-width: 290px;
+    border: 1px solid #424551;
+
+    ul {
+      overflow: hidden;
+      li {
+        padding: 12px 12px;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 10px;
+        margin-bottom: 5px;
+
+        &.active,
+        &:hover {
+          background: #37b13f;
+          border-radius: 10px;
+          color: #fff;
+        }
+
+        &.active {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  max-width: 1660px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.outlet__container {
+  padding-bottom: 50px;
+  .outlet__mt {
+    padding-top: 62px;
+    .outlet__title {
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+}

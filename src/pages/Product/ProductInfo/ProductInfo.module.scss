@@ -1,0 +1,17 @@
+.container {
+  max-width: 1660px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.product_info_container {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: minmax(500px, 1000px) minmax(500px, 650px);
+  grid-template-areas:
+    'present offer'
+    'descr descr';
+  grid-gap: 30px;
+  gap: 30px;
+  // margin-top: 183px;
+  padding-top: 50px;
+}
