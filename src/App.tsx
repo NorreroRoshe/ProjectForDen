@@ -43,7 +43,7 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path="/ReactPizza/" element={<Home />} />
+        <Route path="/ProjectForDen/" element={<Home />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/chapter" element={<Chapter />} />
         <Route
